@@ -1,0 +1,106 @@
+body{
+    font-family: 'Orbitron', sans-serif;
+    background:#000000e0;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin: 4vh 0 3vh 0;
+}
+.option{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+   
+    
+    
+}
+.option div{
+    width: 25%;
+    display: inline-block;
+}
+button{
+    padding: 2vh;
+    cursor: pointer;
+    width: 10vw;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: all ease-in-out 100ms;
+    align-items: center;
+    background: rgba(82, 80, 81, 0.945);
+    border: 2px solid white;
+    
+}
+button:hover{
+    box-shadow: none;
+    transform: scale(.9);
+}
+h2{
+    text-align: center;
+    margin: 2vh 0;
+    font-size: 3vw;
+}
+.result{
+    margin: 4vh 0 6vh 0;
+    text-align: center;
+}
+.result span{
+    
+/*     background: white; */
+  font-weight: 900;
+    font-size: 1.5em;
+    padding: 3px 2px 0px 2px;
+}
+.winningmessage{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.restart{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+/* From cssbuttons.io by @CristianMontoya98 */
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   
+   .btn:hover {
+    color: black;
+   }
+   
+   .btn:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+   }
+   
+   .btn:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+   }
